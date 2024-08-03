@@ -5,7 +5,6 @@
     --item-mova-background: rgba(255, 255, 255, 0.7);
     --hover-button: rgb(0, 0, 139);
     --link-color: rgb(200, 200, 200);
-    /* text */
     --main-color: rgba(255, 255, 255, 1);
     --additional-color: rgba(148, 207, 255, 1);
     --quote-text: rgba(10, 56, 83, 1);
@@ -23,7 +22,6 @@ body {
 header {
     background-image: url(../images/header-background.png);
     background-size: cover;
-    /* background-position: center; */
 }
 
 .nav-link {
@@ -345,4 +343,303 @@ height: 60%; */
     font-size: 14px;
     font-weight: 400;
     line-height: 1.21;
+}
+.container {
+    width: 1056px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* header */
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link {
+    margin-right: 168px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 38px;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.header-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.button-title {
+    padding-right: 10px;
+}
+
+.button-title2 {
+    padding-left: 10px;
+}
+
+/* hero */
+
+.avatar-hero {
+    padding-top: 180px;
+    padding-bottom: 179px;
+}
+
+.hero-item {
+    padding-bottom: 10px;
+}
+
+.hero-title {
+    width: 298px;
+}
+
+.hero-image {
+    width: 152px;
+    height: 40px;
+    padding-left: 53px;
+}
+
+.hero-title2 {
+    width: 376px;
+}
+
+.hero-item2 {
+    margin-bottom: 42px;
+}
+
+.hero-button {
+    display: flex;
+    width: 260px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-list2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+/* quote */
+
+.quote {
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-title {
+    margin-bottom: 4px;
+    padding: 0 auto;
+}
+
+.quote-title2 {
+    width: 1002px;
+    padding: 0 auto;
+    margin-bottom: 16px;
+}
+
+.quote-desc {
+    margin-bottom: 8px;
+    padding: 0 auto;
+}
+
+.quote-image {
+    padding: 0 auto;
+}
+
+/* trailer */
+
+.trailer {
+    padding-top: 320px;
+    padding-bottom: 330px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trailer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 2 quote */
+
+.second-quote {
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+.second-quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-quote-title {
+    width: 886px;
+    margin-bottom: 4px;
+    padding: 0 auto;
+}
+
+.second-quote-title2 {
+    width: 528px;
+    padding: 0 auto;
+    margin-bottom: 16px;
+}
+
+.second-quote-desc {
+    margin-bottom: 8px;
+    padding: 0 auto;
+}
+
+.second-quote-image {
+    padding: 0 auto;
+}
+
+/* language, вернутся сюда */
+
+.language {
+    padding-top: 58px;
+    padding-bottom: 57px;
+}
+
+.language-title {
+    margin-bottom: 45px;
+}
+
+.language-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+
+.language-item {
+    width: 320px;
+    height: 240px;
+    padding: 36px 0;
+}
+
+.item-title {
+    margin-bottom: 40px;
+}
+
+.item-image {
+    margin-bottom: 40px;
+    padding: 0 84px;
+}
+
+/* 3 quote */
+
+.third-quote {
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+.third-quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-quote-title {
+    width: 938px;
+    padding: 0 auto;
+    margin-bottom: 4px;
+}
+
+.third-quote-title2 {
+    width: 812px;
+    padding: 0 auto;
+    margin-bottom: 16px;
+}
+
+.third-quote-desc {
+    margin-bottom: 8px;
+    padding: 0 auto;
+}
+
+.third-quote-image {
+    padding: 0 auto;
+}
+
+/* footer */
+
+.footer {
+    padding-top: 77px;
+    padding-bottom: 25px;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.footer-link {
+    margin-right: 160px;
+}
+
+.footer-desc-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-title {
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.footer-title2 {
+    width: 182px;
+    margin-right: 20px;
+}
+
+.title-image {
+    margin-right: 20px;
+    width: 269px;
+    height: 2px;
+}
+
+.footer-desc {
+    margin-top: 37px;
+    padding: 0 auto;
 }
