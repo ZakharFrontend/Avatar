@@ -88,6 +88,8 @@ header {
 .avatar-hero {
     background-image: url(../images/background_hero.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -97,7 +99,6 @@ header {
     font-weight: 400;
     line-height: 1.2;
     width: 298px;
-    height: 96px;
 }
 
 .hero-title2 {
@@ -107,8 +108,6 @@ header {
     font-weight: 400;
     line-height: 1.2;
     width: 376px;
-    height: 123px;
-    flex-shrink: 0;
 }
 
 .hero-button {
@@ -119,6 +118,7 @@ header {
     border-radius: 45px 0px;
     border: 3px solid var(--button-boarder);
     background: var(--button-background);
+    padding: 10px 31px;
 }
 
 .hero-button:hover,
