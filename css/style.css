@@ -92,6 +92,12 @@ header {
     background-repeat: no-repeat;
 }
 
+.avatar-hero > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .hero-title {
     color: var(--main-color);
     font-family: "Inter", sans-serif;
@@ -348,6 +354,7 @@ height: 60%; */
     width: 1056px;
     margin: 0 auto;
     padding: 0 12px;
+    outline: 1px solid red;
 }
 
 /* header */
@@ -642,4 +649,14 @@ height: 60%; */
 .footer-desc {
     margin-top: 37px;
     padding: 0 auto;
+}
+
+.hero-list2{
+    padding-bottom: 299px;
+    padding-top: 300px;
+    gap: 27px;
+}
+
+.container{
+    outline: none;
 }
